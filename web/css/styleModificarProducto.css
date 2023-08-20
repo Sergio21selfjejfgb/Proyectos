@@ -1,0 +1,43 @@
+body{
+    background-color: #f2f2f2;
+}
+h1{
+    font-size: 70px;
+    font-weight: bold;
+    text-align: center;
+}
+
+div{
+    margin: 30px;
+}
+
+.cajaFormulario{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 30%;
+    margin-left: 35%;
+    text-align: center;
+    background-color: white;
+}
+form{
+    padding: 20px;   
+    
+}
+
+
+@media screen and (min-width:820px) and (max-width: 1600px){  
+    .cajaFormulario{
+        width: 70%;
+        margin-left: 15%;
+    }
+    
+}
+
+@media screen and (min-width:120px) and (max-width: 820px){
+    
+    .cajaFormulario{
+        width: 100%;
+        margin: 0;
+    }
+}
+
